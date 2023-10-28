@@ -23,6 +23,7 @@ function CreatePost(props) {
         <div>
             <p>Title: </p>
             <input name="title" value={title} onChange={handleChange} placeholder="Title"/>
+            <p>Content: </p>
             <input name="content" value={content} onChange={handleChange} placeholder="Content"/>
             <button onClick={handleSubmit}>Submit</button>
         </div>
